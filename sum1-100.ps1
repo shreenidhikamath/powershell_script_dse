@@ -1,0 +1,6 @@
+# Calculate the sum of numbers from 1 to 100
+$sum = 0
+for ($i = 1; $i -le 100; $i++) {
+    $sum += $i
+}
+Write-Output "Sum = $sum"
